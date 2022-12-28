@@ -4,7 +4,8 @@
 # 这个程序如何使用？
 这个程序是在Linux上才能运行的而且是apt包管理器的系统
 使用方法：
-```1. git clone https://github.com/MCKN007/prometheus.git
+```shell
+1. git clone https://github.com/MCKN007/prometheus.git
 2. cd prometheus
 3. lua prometheus_main.lua
 ```
