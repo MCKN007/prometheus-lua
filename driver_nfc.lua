@@ -39,5 +39,4 @@ else
   os.execute("cp deb/libnfc.conf /etc/nfc")--将配置文件复制到/etc/nfc/这个目录下面
   print("复制成功")--打印复制成功
 end
-os.execute("qterminal -e lua prometheus_main.lua")--打开一个新的终端去执行主程序
-os.exit()
+os.execute("lua prometheus_main.lua")--打开一个新的终端去执行主程序

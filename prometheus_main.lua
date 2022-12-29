@@ -11,9 +11,9 @@ print("输入1运行驱动安装程序\n输入2运行卡片扫描程序\n输入3
 io.write("输入:")
 local input = tonumber(io.read())--读取输入内容，然后根据内容执行相应的命令
 if input == 1 then
-    os.execute("qterminal -e lua driver_nfc.lua") 
+    os.execute("lua driver_nfc.lua") 
 elseif input == 2 then    
-    os.execute("qterminal -e lua scan_nfc.lua")
+    os.execute("lua scan_nfc.lua")
 elseif input == 3 then
     os.execute("qterminal -e lua .lua")
 elseif input == 4 then
@@ -57,9 +57,9 @@ print("输入1运行驱动安装程序\n输入2运行卡片扫描程序\n输入3
 io.write("输入:")
 local input = tonumber(io.read())--读取输入内容，然后根据内容执行相应的命令
 if input == 1 then
-    os.execute("qterminal -e lua driver_nfc.lua") 
+    os.execute("lua driver_nfc.lua") 
 elseif input == 2 then    
-    os.execute("qterminal -e lua scan_nfc.lua")
+    os.execute("lua scan_nfc.lua")
 elseif input == 3 then
     os.execute("qterminal -e lua .lua")
 elseif input == 4 then

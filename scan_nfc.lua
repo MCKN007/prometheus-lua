@@ -6,7 +6,8 @@ local ERROR = "error.log"
 local attr = lfs.attributes(ChenMengyuan)
 if attr then
   -- 文件存在
-  local scan_nfc = os.execute("dpkg -s libnfc-dev")
+  os.execute("nfc-poll")
+  os.execute("lua prometheus_main.lua")
 else
   -- 文件不存在
   print("No")
@@ -23,5 +24,6 @@ else
     print("权限不足！！！")
     end
 end
-os.execute("qterminal -e lua prometheus_main.lua")
 os.exit()
+os.execute("lua prometheus_main.lua")
+
