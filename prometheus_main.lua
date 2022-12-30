@@ -15,7 +15,7 @@ if input == 1 then
 elseif input == 2 then    
     os.execute("lua scan_nfc.lua")
 elseif input == 3 then
-    os.execute("qterminal -e lua .lua")
+    os.execute("lua readcard_nfc.lua")
 elseif input == 4 then
     os.execute("qterminal -e lua .lua")
 elseif input == 5 then
@@ -61,7 +61,7 @@ if input == 1 then
 elseif input == 2 then    
     os.execute("lua scan_nfc.lua")
 elseif input == 3 then
-    os.execute("qterminal -e lua .lua")
+    os.execute("lua readcard_nfc.lua")
 elseif input == 4 then
     os.execute("qterminal -e lua .lua")
 elseif input == 5 then
