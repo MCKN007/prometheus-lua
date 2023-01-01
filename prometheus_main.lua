@@ -72,9 +72,9 @@ elseif input == 2 then
 elseif input == 3 then
     os.execute("lua readcard_nfc.lua")
 elseif input == 4 then
-    os.execute("qterminal -e lua .lua")
+    os.execute("lua writecard_nfc.lua")
 elseif input == 5 then
-    os.execute("qterminal -e lua .lua")
+    os.execute("lua stencheny.lua")
 elseif input == 6 then
     os.execute("qterminal -e lua .lua")
 elseif input == 7 then
