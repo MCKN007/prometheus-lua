@@ -16,10 +16,12 @@ else--否则执行以下代码
   print("没有网络连接，开始安装本地包")
   os.execute("sudo dpkg -i deb/libnfc.deb")--以下都是调用系统使用dpkg命令安装准备好的软件安装包
   os.execute("sudo dpkg -i deb/libnfc-dev.deb")
+  os.execute("sudo dpkg -i deb/libnfc6.deb")
   os.execute("sudo dpkg -i deb/libnfc-examples.deb")
   os.execute("sudo dpkg -i deb/mfcuk.deb")
   os.execute("sudo dpkg -i deb/mfoc.deb")
-  os.execute("sudo dpkg -i deb/bless")
+  os.execute("sudo dpkg -i deb/bless.deb")
+  os.execute("touch .bless.log")
   local package = "libnfc-dev"--设置查找的软件包
   local command = "dpkg -s " .. package .. " >/dev/null 2>&1"--检查是否存在这个软件包文件
   local exit_code = os.execute(command)--返回值为0则表示存在这个软件包

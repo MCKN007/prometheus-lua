@@ -30,7 +30,7 @@ elseif input == 4 then
 elseif input == 5 then
     os.execute("lua stencheny.lua")
 elseif input == 6 then
-    os.execute("lua .lua")
+    os.execute("lua HexEdit.lua")
 elseif input == 7 then
     os.execute("lua .lua")
 end
@@ -76,7 +76,7 @@ elseif input == 4 then
 elseif input == 5 then
     os.execute("lua stencheny.lua")
 elseif input == 6 then
-    os.execute("qterminal -e lua .lua")
+    os.execute("qterminal -e lua HexEdit.lua")
 elseif input == 7 then
     os.execute("qterminal -e lua .lua")
 end
