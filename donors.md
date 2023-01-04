@@ -14,4 +14,4 @@
 ## 捐赠
 Prometheus是一个开源的，非盈利的项目,如果你喜欢这个项目，请捐赠它：
 ##### 微信支付捐赠
-![Screenshot](https://github.com/mckn007/prometheus/WXJZ.jpg)
+![Screenshot](/prometheus/WXJZ.jpg)
