@@ -22,5 +22,5 @@
 ```
 https://github.com/MCKN007/prometheus/releases/
 ````
-第一个是命令行版本，第二个是带图形化界面的版本
- [捐赠墙(点击查看)](/Donors.md)
+第一个是命令行版本，第二个是带图形化界面的版本\n
+ [捐赠墙(点击查看)](/donors.md)
