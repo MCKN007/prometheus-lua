@@ -5,7 +5,7 @@
 这个程序是在Linux上才能运行的而且是apt包管理器的系统
 使用方法：
 ```shell
-1. git clone https://github.com/MCKN007/prometheus.git
+1. git clone https://github.com/MCKN007/prometheus-lua.git
 2. cd prometheus
 3. lua prometheus_main.lua
 ```
@@ -20,7 +20,7 @@
 ```
 #### 软件的下载地址
 ```
-https://github.com/MCKN007/prometheus/releases/
+https://github.com/MCKN007/prometheus-lua/releases/
 ````
 第一个是命令行版本，第二个是带图形化界面的版本
 
