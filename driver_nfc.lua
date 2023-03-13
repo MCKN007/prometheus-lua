@@ -1,6 +1,7 @@
 --在终端打印文本显示给用户
 print("驱动安装程序开始，正在检查网络状态...")
 --添加库文件lfs，方便在下面使用lif.attributes函数检查文件属性
+execute("apt install lua-filesystem")--安装库
 local lfs = require("lfs")
 --先定义本地变量package等于刚才我们安装的软件包的其中一个的包名
 local package = "libnfc-dev"
