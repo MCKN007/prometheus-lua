@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=prometheus-lua
+Comment=made with mcbbs007
+Exec=sudo lua prometheus_main.lua
+Icon=view-private
+Path=/usr/prometheus-lua-app/
+Terminal=true
+StartupNotify=false
