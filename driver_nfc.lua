@@ -1,3 +1,5 @@
+以下所有代码在2023-7。7日后取消使用，改为了install.sh安装脚本
+--[[
 --在终端打印文本显示给用户
 print("驱动安装程序开始，正在检查网络状态...")
 --添加库文件lfs，方便在下面使用lif.attributes函数检查文件属性
@@ -62,3 +64,4 @@ end
 os.exit()
 --新建任务去执行软件主程序
 os.execute("lua prometheus_main.lua")
+]]
